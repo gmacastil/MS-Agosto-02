@@ -1,0 +1,6 @@
+@MS_Agosto_02_HostAddress = http://localhost:5082
+
+GET {{MS_Agosto_02_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

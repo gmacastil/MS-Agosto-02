@@ -1,0 +1,9 @@
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/MS-Agosto-02
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/appsettings.Development.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/appsettings.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/MS-Agosto-02.dll
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/MS-Agosto-02.deps.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/MS-Agosto-02.runtimeconfig.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/MS-Agosto-02.pdb
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/Microsoft.AspNetCore.OpenApi.dll
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/out/Microsoft.OpenApi.dll

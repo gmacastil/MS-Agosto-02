@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mi2cuSlQFi8=",
+  "success": true,
+  "projectFilePath": "/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/MS-Agosto-02.csproj",
+  "expectedPackageFiles": [
+    "/home/alecasti/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/home/alecasti/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
