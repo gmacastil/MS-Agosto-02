@@ -30,3 +30,4 @@
 /data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/obj/Release/net9.0/MS-Agosto-02.pdb
 /data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/obj/Release/net9.0/MS-Agosto-02.genruntimeconfig.cache
 /data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/obj/Release/net9.0/ref/MS-Agosto-02.dll
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/obj/Release/net9.0/MS-Agosto-02.sourcelink.json
