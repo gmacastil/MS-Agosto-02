@@ -1,0 +1,60 @@
+
+name: Dotnet CI
+
+on:
+  push:
+    branches: [ "main"]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  REGISTRY: mauron
+  SONAR_HOST_URL: http://localhost:9001
+
+jobs:
+  ci:
+
+    #runs-on: ubuntu-latest
+    runs-on: profe
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: set up dotnet
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '9.0.x'
+
+    - name: Build with dotnet
+      run: dotnet restore
+
+    - name: Build with dotnet
+      run: dotnet publish -o out
+
+    - name: Buscar dll
+      run: |
+        ls -al out/*.dll
+
+    - name: sonarqube
+      run: |
+        echo "Run SonarQube analysis manually..."
+        dotnet sonarscanner begin /k:"${{ github.event.repository.name }}" /d:sonar.host.url="${{ env.SONAR_HOST_URL }}" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+        dotnet build
+        dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+            -Dsonar.host.url=${{ env.SONAR_HOST_URL }} \
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
+
+    - name: build image
+      run: |
+        echo "Building Docker image..."
+        docker build -t ${{ env.REGISTRY }}/${{ github.event.repository.name }}:${{ github.run_number}} .
+
+    - name: login docker
+      run: |
+        echo "Logging in to Docker..."
+        echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+    - name: Push Docker image
+      run: |
+        echo "Pushing Docker image..."
+        docker push ${{ env.REGISTRY }}/${{ github.event.repository.name }}:${{ github.run_number}}
