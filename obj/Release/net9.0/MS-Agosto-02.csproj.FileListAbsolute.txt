@@ -31,3 +31,9 @@
 /data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/obj/Release/net9.0/MS-Agosto-02.genruntimeconfig.cache
 /data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/obj/Release/net9.0/ref/MS-Agosto-02.dll
 /data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/obj/Release/net9.0/MS-Agosto-02.sourcelink.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/bin/Release/net9.0/out/web.config
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/bin/Release/net9.0/out/appsettings.Development.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/bin/Release/net9.0/out/appsettings.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/bin/Release/net9.0/out/MS-Agosto-02.deps.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/bin/Release/net9.0/out/MS-Agosto-02.runtimeconfig.json
+/data/personal/trabajos/litethinking/cursos/curso-devops/agosto/MS-Agosto-02/bin/Release/net9.0/out/MS-Agosto-02.staticwebassets.endpoints.json
